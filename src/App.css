@@ -1,0 +1,33 @@
+.nav-item:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+.active {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+.product-container {
+  display: flex;
+}
+.card-img-top {
+  width: 287px;
+  height: 302px;
+  object-fit: contain;
+}
+.shadow-nav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+.card-price {
+  color: green;
+  font-weight: bold;
+}
